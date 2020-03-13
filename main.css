@@ -286,7 +286,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .rotate90 {
     /*# transform: rotate(90deg); */
-    image-orientation: from-image;
+    image-orientation: 90deg;
     max-width:30%;
     height:auto;
     display: block;
