@@ -285,6 +285,8 @@ table td { border: 1px solid #e8e8e8; }
 /*# sourceMappingURL=main.css.map */
 
 .rotate90 {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
